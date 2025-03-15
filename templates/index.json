@@ -39,11 +39,12 @@
         "h2 {border: bold;}"
       ],
       "settings": {
+        "image": "shopify://shop_images/Group_1000008197.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "left",
         "show_text_box": false,
         "color_scheme": "scheme-2",
         "stack_images_on_mobile": false,
