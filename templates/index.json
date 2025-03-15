@@ -7,11 +7,12 @@
           "settings": {
             "heading": "Browse our latest products",
             "heading_size": "h0"
-          },
-          "heading1": {
-          "type": "heading",
+          }
+        },
+        "heading1": {
+          "type": "heading1",
           "settings": {
-            "heading": "New Values",
+            "heading": "Browse our latest productsddd",
             "heading_size": "h4"
           }
         },
@@ -83,4 +84,4 @@
     "featured_collection"
   ]
 }
-}
+
