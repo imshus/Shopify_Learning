@@ -146,6 +146,9 @@
                 >
                   {{- block.settings.button_label_1 | escape -}}
                 </a>
+                <span class="svg-wrapper">
+              {{- 'icon-caret.svg' | inline_asset_content -}}
+            </span>
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
                 <a
