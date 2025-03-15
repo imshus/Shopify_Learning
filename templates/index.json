@@ -1,5 +1,4 @@
-{
-  "sections": {
+{"sections": {
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -8,6 +7,12 @@
           "settings": {
             "heading": "Browse our latest products",
             "heading_size": "h0"
+          },
+          "heading1": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Values",
+            "heading_size": "h4"
           }
         },
         "button": {
@@ -24,6 +29,7 @@
       },
       "block_order": [
         "heading",
+        "heading1",
         "button"
       ],
       "custom_css": [
@@ -76,4 +82,5 @@
     "image_banner",
     "featured_collection"
   ]
+}
 }
