@@ -125,6 +125,13 @@
             >
               {{ block.settings.heading }}
             </h2>
+          {%- when 'heading1' -%}
+                  <h2
+                    class="image-with-text__heading inline-richtext {{ block.settings.heading1_size }}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.heading1 }}
+                  </h2>
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
