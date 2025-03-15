@@ -12,8 +12,8 @@
         "heading1": {
           "type": "heading1",
           "settings": {
-            "heading": "Browse our latest productsddd",
-            "heading_size": "h4"
+            "heading1": "Browse our latest productsddd",
+            "heading1_size": "h4"
           }
         },
         "button": {
