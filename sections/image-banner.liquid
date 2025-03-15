@@ -145,10 +145,10 @@
                   class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
                 >
                   {{- block.settings.button_label_1 | escape -}}
-                </a>
-                <span class="svg-wrapper">
+                  <span class="svg-wrapper">
                  {{- 'icon-arrow.svg' | inline_asset_content -}}
                </span>
+                </a>
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
                 <a
