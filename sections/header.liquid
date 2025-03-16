@@ -23,3 +23,20 @@
 ]
 }
 {% endschema %}
+
+{% stylesheet %}
+  <style>
+    .hero-banner{
+      display:flex;
+      flexx-direction:row;
+    }
+  </style>
+{% endstylesheet %}
+
+<div class="hero-banner">
+  <h1 class="hero-heading">{{ section.settings.heading }}</h1>
+  <p>{{ section.settings.subheading }}</p>
+  <a href="{{ section.settings.button_link }}" class="cta-button">
+    {{ section.settings.button_text }}
+  </a>
+</div>
